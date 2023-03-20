@@ -29,15 +29,15 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-color);
-}
-.logo-web {
   color: var(--active-color);
+}
+.logo-studio {
+  color: var(--main-color);
 }
 
 .menu-link {
@@ -47,8 +47,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
-.contact-link {
+.contact-info {
   font-style: normal;
+}
+.contact-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -78,8 +80,11 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-white-color);
-}
+  color: var(--active-color);}
+
+  .logo-footer-studio {
+    color:var(--secondary-white-color);
+  }
 
 .footer-text {
   font-weight: 400;
@@ -104,6 +109,7 @@ body {
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   background-color: var(--active-color);
   font-weight: 500;
   font-size: 16px;
@@ -156,6 +162,7 @@ body {
 /* Portfolio */
 
 .filter-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -169,7 +176,7 @@ body {
 
 .filter-button:hover,
 .filter-button:focus {
-  background-color: var(--active-color);
+  background-color: var(--pressed-state);
   color: var(--white-color);
   cursor: pointer;
 }
