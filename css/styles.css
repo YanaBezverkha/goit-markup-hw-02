@@ -147,7 +147,9 @@ body {
 .hero-button:focus {
   background-color: var(--pressed-state);
 }
-
+.team {
+  background-color: var(--secondary-white-color);
+}
 .team-subtitle {
   text-align: center;
 }
@@ -156,6 +158,9 @@ body {
   text-align: center;
 }
 
+.team-item {
+  background-color: var(--white-color);
+}
 /* Portfolio */
 
 .filter-button {
