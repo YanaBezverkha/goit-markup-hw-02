@@ -23,6 +23,28 @@ body {
   text-decoration: none;
 }
 
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-color);
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /* Header */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -126,31 +148,6 @@ body {
   background-color: var(--pressed-state);
 }
 
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--main-color);
-}
-
-.subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-color);
-}
-
-.text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.team {
-  background-color: var(--secondary-white-color);
-}
 .team-subtitle {
   text-align: center;
 }
@@ -179,4 +176,8 @@ body {
   background-color: var(--pressed-state);
   color: var(--white-color);
   cursor: pointer;
+}
+
+.project-text {
+  color: var(--font-color);
 }
